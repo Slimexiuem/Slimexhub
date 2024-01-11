@@ -13,8 +13,8 @@ local L_4_ = L_1_:CreateWindow({
 	MinimizeKey = Enum.KeyCode.End
 })
 local L_5_ = {
-	info = L_4_:AddTab({
-		Title = "info",
+	Info = L_4_:AddTab({
+		Title = "Info",
 		Icon = "rbxassetid://15943857180"
 	}),
 	Main = L_4_:AddTab({
@@ -7156,17 +7156,18 @@ if Third_Sea then
 		end
 	end)
 end
---------------------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------
 --info
-l_6_.Discord:AddButton(
+L_5_.Info:AddButton(
         {
-            Title = "Copy Discord Afxcaxi",
-            Description = "https://discord.gg/Zv2RDy2V66",
+            Title = "Copy Discord SlimeX_Hub",
+            Description = "https://discord.gg/hWrKvbMrVF",
             Callback = function()
-                setclipboard("https://discord.gg/Zv2RDy2V66")
+                setclipboard("https://discord.gg/hWrKvbMrVF")
                 Fluent:Notify(
                     {
-                        Title = "Afxcaxi Hub",
+                        Title = "SlimeX_Hub",
                         Content = "Copied!",
                         SubContent = "", -- Optional
                         Duration = 5 -- Set to nil to make the notification not disappear
