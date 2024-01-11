@@ -4,7 +4,7 @@ local L_2_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-sc
 local L_3_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local L_4_ = L_1_:CreateWindow({
-	Title = "S Hub",
+	Title = "Slimex Hub",
 	SubTitle = "Version 1.00134",
 	TabWidth = 160,
 	Size = UDim2.fromOffset(530, 350),
@@ -13,9 +13,9 @@ local L_4_ = L_1_:CreateWindow({
 	MinimizeKey = Enum.KeyCode.End
 })
 local L_5_ = {
-		info = L_4_:AddTab({
+	info = L_4_:AddTab({
 		Title = "infon",
-		Icon = ""
+		Icon = "rbxassetid://15943857180"
 	}),
 	Main = L_4_:AddTab({
 		Title = "Main",
