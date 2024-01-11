@@ -14,7 +14,7 @@ local L_4_ = L_1_:CreateWindow({
 })
 local L_5_ = {
 	info = L_4_:AddTab({
-		Title = "infon",
+		Title = "info",
 		Icon = "rbxassetid://15943857180"
 	}),
 	Main = L_4_:AddTab({
@@ -2642,6 +2642,8 @@ do
 	L_92_.MouseButton1Click:Connect(function()
 		game:GetService("VirtualInputManager"):SendKeyEvent(true, Enum.KeyCode.End, false, game)
 	end)
+	L_93_.CornerRadius = UDim.new(0, 15)
+	L_93_.Parent = L_92_
 --------------------------------------------------------------------------------------------------------------------------------------------
 --Remove Effect
 	if game:GetService("ReplicatedStorage").Effect.Container:FindFirstChild("Death") then
