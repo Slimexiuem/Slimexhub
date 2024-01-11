@@ -4,7 +4,7 @@ local L_2_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-sc
 local L_3_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local L_4_ = L_1_:CreateWindow({
-	Title = "Rimuru Hub",
+	Title = "S Hub",
 	SubTitle = "Version 1.00134",
 	TabWidth = 160,
 	Size = UDim2.fromOffset(530, 350),
@@ -7122,7 +7122,7 @@ if Third_Sea then
 				elseif game:GetService("Lighting").Sky.MoonTextureId == "http://www.roblox.com/asset/?id=9709149680" then
 					Hop()
 					L_1_:Notify({
-						Title = "Rimuru Hub",
+						Title = "Slimex Hub",
 						Content = "Hop...",
 						SubContent = "", -- Optional
 						Duration = 5 -- Set to nil to make the notification not disappear
@@ -7155,3 +7155,22 @@ if Third_Sea then
 		end
 	end)
 end
+--------------------------------------------------------------------------------------------------------------------------------------------
+--info
+l_6_.Discord:AddButton(
+        {
+            Title = "Copy Discord Afxcaxi",
+            Description = "https://discord.gg/Zv2RDy2V66",
+            Callback = function()
+                setclipboard("https://discord.gg/Zv2RDy2V66")
+                Fluent:Notify(
+                    {
+                        Title = "Afxcaxi Hub",
+                        Content = "Copied!",
+                        SubContent = "", -- Optional
+                        Duration = 5 -- Set to nil to make the notification not disappear
+                    }
+                )
+            end
+        }
+    )
