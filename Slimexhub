@@ -2641,7 +2641,7 @@ do
 	L_92_.MouseButton1Click:Connect(function()
 		game:GetService("VirtualInputManager"):SendKeyEvent(true, Enum.KeyCode.End, false, game)
 	end)
-	L_93_.CornerRadius = UDim.new(0, 15)
+	L_93_.CornerRadius = UDim.new(0, 10)
 	L_93_.Parent = L_92_
 --------------------------------------------------------------------------------------------------------------------------------------------
 --Remove Effect
