@@ -2642,6 +2642,8 @@ do
 	L_92_.MouseButton1Click:Connect(function()
 		game:GetService("VirtualInputManager"):SendKeyEvent(true, Enum.KeyCode.End, false, game)
 	end)
+	L_93_.CornerRadius = UDim.new(0, 25)
+	L_93_.Parent = L_92_
 --------------------------------------------------------------------------------------------------------------------------------------------
 --Remove Effect
 	if game:GetService("ReplicatedStorage").Effect.Container:FindFirstChild("Death") then
