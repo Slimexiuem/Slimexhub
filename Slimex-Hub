@@ -19,23 +19,23 @@ local L_5_ = {
 	}),
 	Main = L_4_:AddTab({
 		Title = "Main",
-		Icon = "dog"
+		Icon = "home"
 	}),
 	Setting = L_4_:AddTab({
 		Title = "Setting",
-		Icon = "settings"
+		Icon = "rbxassetid://15943857180"
 	}),
 	Stats = L_4_:AddTab({
 		Title = "Stats",
-		Icon = "plus-circle"
+		Icon = "rbxassetid://15943857180"
 	}),
 	Player = L_4_:AddTab({
 		Title = "Player",
-		Icon = "baby"
+		Icon = "rbxassetid://15943857180"
 	}),
 	Teleport = L_4_:AddTab({
 		Title = "Island",
-		Icon = "palmtree"
+		Icon = "rbxassetid://15943857180e"
 	}),
 	Fruit = L_4_:AddTab({
 		Title = "Fruit",
