@@ -5,6 +5,7 @@ local L_3_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-sc
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local L_4_ = L_1_:CreateWindow({
 	Title = "Slimex Hub",
+	Image = "rbxassetid://15943857180"
 	SubTitle = "Version 1.00134",
 	TabWidth = 160,
 	Size = UDim2.fromOffset(530, 350),
