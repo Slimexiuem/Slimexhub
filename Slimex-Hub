@@ -19,7 +19,7 @@ local L_5_ = {
 	}),
 	Main = L_4_:AddTab({
 		Title = "Main",
-		Icon = "home"
+		Icon = "dog"
 	}),
 	Setting = L_4_:AddTab({
 		Title = "Setting",
