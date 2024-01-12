@@ -7162,8 +7162,17 @@ end
 L_5_.Info:AddButton(
         {
             Title = "Thank for using SlimeX_Hub",
-            Description = "dev by Slimex",
+            Description = "Dev by Slimex
+                           Support by TThe",
             Callback = function()
+                setclipboard("https://discord.gg/hWrKvbMrVF")
+                Fluent:Notify(
+                    {
+                        Title = "SlimeX_Hub",
+                        Content = "Copied!",
+                        SubContent = "", -- Optional
+                        Duration = 5 -- Set to nil to make the notification not disappear
+                    }
                 )
             end
         }
