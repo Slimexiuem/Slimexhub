@@ -7163,6 +7163,7 @@ L_5_.Info:AddButton(
         {
             Title = "Thank for using SlimeX_Hub",
             Description = "dev by Slimex",
+            Callback = function()
                 )
             end
         }
