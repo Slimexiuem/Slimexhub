@@ -1,3 +1,7 @@
+-discord.gg/boronide, code generated using luamin.js™
+
+
+
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local L_1_ = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local L_2_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
