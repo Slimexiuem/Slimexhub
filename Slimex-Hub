@@ -2738,7 +2738,7 @@ require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Hãy Tham Gia Di
 		end
 	end)
 	local L_98_ = L_5_.Main:AddToggle("ToggleLevel", {
-		Title = "Auto Level",
+		Title = "Auto Farm Level",
 		Default = false
 	})
 	L_98_:OnChanged(function(L_315_arg0)
@@ -3314,7 +3314,7 @@ require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Hãy Tham Gia Di
 	local L_108_ = L_5_.Main:AddSection("Misc Farm")
 	if Third_Sea then
 		local L_361_ = L_5_.Main:AddToggle("ToggleBone", {
-			Title = "Auto Bone",
+			Title = "Auto Farm Bone",
 			Default = false
 		})
 		L_361_:OnChanged(function(L_366_arg0)
@@ -7188,6 +7188,7 @@ L_5_.Info:AddButton(
             Description = "https://discord.gg/hWrKvbMrVF",
             Callback = function()
                 setclipboard("https://discord.gg/hWrKvbMrVF")
+		require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Đã Coppy Discord của SlimeX_Hub!<Color=/>"):Display()
                 Fluent:Notify(
                     {
                         Title = "SlimeX_Hub",
