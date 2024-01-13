@@ -15,47 +15,47 @@ local L_4_ = L_1_:CreateWindow({
 local L_5_ = {
 	Info = L_4_:AddTab({
 		Title = "Info",
-		Icon = "rbxassetid://15943857180"
+		Icon = ""
 	}),
 	Main = L_4_:AddTab({
 		Title = "Main",
-		Icon = "home"
+		Icon = ""
 	}),
 	Setting = L_4_:AddTab({
 		Title = "Setting",
-		Icon = "rbxassetid://15943857180"
+		Icon = ""
 	}),
 	Stats = L_4_:AddTab({
 		Title = "Stats",
-		Icon = "rbxassetid://15943857180"
+		Icon = ""
 	}),
 	Player = L_4_:AddTab({
-		Title = "Player",
-		Icon = "rbxassetid://15943857180"
+		Title = "",
+		Icon = "
 	}),
 	Teleport = L_4_:AddTab({
-		Title = "Island",
-		Icon = "rbxassetid://15943857180e"
+		Title = "",
+		Icon = ""
 	}),
 	Fruit = L_4_:AddTab({
-		Title = "Fruit",
-		Icon = "cherry"
+		Title = "",
+		Icon = ""
 	}),
 	Raid = L_4_:AddTab({
-		Title = "Raid",
-		Icon = "swords"
+		Title = "",
+		Icon = ""
 	}),
 	Race = L_4_:AddTab({
-		Title = "Race V4",
-		Icon = "chevrons-right"
+		Title = "",
+		Icon = ""
 	}),
 	Shop = L_4_:AddTab({
 		Title = "Shop",
-		Icon = "shopping-cart"
+		Icon = ""
 	}),
 	Misc = L_4_:AddTab({
 		Title = "Misc",
-		Icon = "list-plus"
+		Icon = ""
 	}),
 	Hop = L_4_:AddTab({
 		Title = "Hop",
@@ -95,6 +95,12 @@ do
 		end
 	end
 	AntiBan()
+
+
+-------------------
+NoFi
+require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Hãy Tham Gia Discord Của SlimeX_Hub<Color=/>"):Display()
+
 --------------------------------------------------------------------------------------------------------------------------------------------
 --Anti AFK
 	game:GetService("Players").LocalPlayer.Idled:connect(function()
@@ -7195,7 +7201,5 @@ L_5_.Info:AddButton(
     )
 
 
----------Nofi-------
-require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Hãy Tham Gia Discord Của SlimeX_Hub<Color=/>"):Display()
 
 
