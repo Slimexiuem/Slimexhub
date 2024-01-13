@@ -7193,3 +7193,9 @@ L_5_.Info:AddButton(
             end
         }
     )
+
+
+---------Nofi-------
+require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Hãy Tham Gia Discord Của SlimeX_Hub<Color=/>"):Display()
+
+
