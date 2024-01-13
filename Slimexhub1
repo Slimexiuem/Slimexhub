@@ -25,10 +25,6 @@ local L_5_ = {
 		Title = "Main",
 		Icon = ""
 	}),
-	Setting = L_4_:AddTab({
-		Title = "Setting",
-		Icon = ""
-	}),
 	Stats = L_4_:AddTab({
 		Title = "Stats",
 		Icon = ""
@@ -57,6 +53,10 @@ local L_5_ = {
 		Title = "Player",
 		Icon = ""
         }),
+        Setting = L_4_:AddTab({
+		Title = "Setting",
+		Icon = ""
+	}),
 	Misc = L_4_:AddTab({
 		Title = "Misc",
 		Icon = ""
@@ -7164,16 +7164,8 @@ end
 --info
 L_5_.Info:AddButton(
         {
-            Title = "Copy Discord SlimeX_Hub",
+            Title = "Thank for use SlimeX_Hub",
             Description = "https://discord.gg/hWrKvbMrVF",
-            Callback = function()
-                setclipboard("https://discord.gg/hWrKvbMrVF")
-                Fluent:Notify(
-                    {
-                        Title = "SlimeX_Hub",
-                        Content = "Copied!",
-                        SubContent = "", -- Optional
-                        Duration = 5 -- Set to nil to make the notification not disappear
                     }
                 )
             end
