@@ -96,6 +96,9 @@ do
 	end
 	AntiBan()
 --------------------------------------------------------------------------------------------------------------------------------------------
+--Nofi
+	require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Pls Join Discord SlimeX_Hub!<Color=/>"):Display()
+--------------------------------------------------------------------------------------------------------------------------------------------
 --Anti AFK
 	game:GetService("Players").LocalPlayer.Idled:connect(function()
 		game:GetService("VirtualUser"):Button2Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
