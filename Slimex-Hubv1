@@ -13,49 +13,45 @@ local L_4_ = L_1_:CreateWindow({
 	MinimizeKey = Enum.KeyCode.End
 })
 local L_5_ = {
-	Info = L_4_:AddTab({
-		Title = "Info",
-		Icon = ""
-	}),
 	Main = L_4_:AddTab({
 		Title = "Main",
-		Icon = ""
+		Icon = "home"
 	}),
 	Setting = L_4_:AddTab({
 		Title = "Setting",
-		Icon = ""
+		Icon = "settings"
 	}),
 	Stats = L_4_:AddTab({
 		Title = "Stats",
-		Icon = ""
+		Icon = "plus-circle"
 	}),
 	Player = L_4_:AddTab({
-		Title = "",
-		Icon = "
+		Title = "Player",
+		Icon = "baby"
 	}),
 	Teleport = L_4_:AddTab({
-		Title = "",
-		Icon = ""
+		Title = "Island",
+		Icon = "palmtree"
 	}),
 	Fruit = L_4_:AddTab({
-		Title = "",
-		Icon = ""
+		Title = "Fruit",
+		Icon = "cherry"
 	}),
 	Raid = L_4_:AddTab({
-		Title = "",
-		Icon = ""
+		Title = "Raid",
+		Icon = "swords"
 	}),
 	Race = L_4_:AddTab({
-		Title = "",
-		Icon = ""
+		Title = "Race V4",
+		Icon = "chevrons-right"
 	}),
 	Shop = L_4_:AddTab({
 		Title = "Shop",
-		Icon = ""
+		Icon = "shopping-cart"
 	}),
 	Misc = L_4_:AddTab({
 		Title = "Misc",
-		Icon = ""
+		Icon = "list-plus"
 	}),
 	Hop = L_4_:AddTab({
 		Title = "Hop",
