@@ -8,12 +8,12 @@ local L_2_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-sc
 local L_3_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local L_4_ = L_1_:CreateWindow({
-	Title = "Slimex Hub",
-	SubTitle = "Version 1.09837",
+	Title = "Rimuru Hub",
+	SubTitle = "Version 1",
 	TabWidth = 160,
 	Size = UDim2.fromOffset(530, 350),
 	Acrylic = false,
-	Theme = "AquaAqua",
+	Theme = "Amethyst",
 	MinimizeKey = Enum.KeyCode.End
 })
 local L_5_ = {
@@ -2638,7 +2638,6 @@ do
 	L_92_.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 	L_92_.Size = UDim2.new(0, 50, 0, 50)
 	L_92_.Image = "rbxassetid://15943857180"
-	L_92_.Draggable = true
 	L_92_.MouseButton1Click:Connect(function()
 		game:GetService("VirtualInputManager"):SendKeyEvent(true, Enum.KeyCode.End, false, game)
 	end)
@@ -2733,7 +2732,7 @@ do
 		end
 	end)
 	local L_98_ = L_5_.Main:AddToggle("ToggleLevel", {
-		Title = "Auto Level",
+		Title = "Auto Farm Level",
 		Default = false
 	})
 	L_98_:OnChanged(function(L_315_arg0)
@@ -3309,7 +3308,7 @@ do
 	local L_108_ = L_5_.Main:AddSection("Misc Farm")
 	if Third_Sea then
 		local L_361_ = L_5_.Main:AddToggle("ToggleBone", {
-			Title = "Auto Bone",
+			Title = "Auto Farm Bone",
 			Default = false
 		})
 		L_361_:OnChanged(function(L_366_arg0)
@@ -7157,31 +7156,3 @@ if Third_Sea then
 		end
 	end)
 end
---------------------------------------------------------------------------------------------------------------------------------------------
---info
-L_5_.Info:AddButton(
-        {
-            Title = "thank for use SlimeX_Hub",
-            Description = "dev by Slimex and support by TThe",
-                    }
-                )
-            end
-        }
-    )
-L_5_.Info:AddButton(
-        {
-            Title = "Copy Discord SlimeX_Hub",
-            Description = "https://discord.gg/hWrKvbMrVF",
-            Callback = function()
-                setclipboard("https://discord.gg/hWrKvbMrVF")
-                Fluent:Notify(
-                    {
-                        Title = "SlimeX_Hub",
-                        Content = "Copied!",
-                        SubContent = "", -- Optional
-                        Duration = 5 -- Set to nil to make the notification not disappear
-                    }
-                )
-            end
-        }
-    )
