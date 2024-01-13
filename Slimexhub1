@@ -9,57 +9,61 @@ local L_3_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-sc
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local L_4_ = L_1_:CreateWindow({
 	Title = "Rimuru Hub",
-	SubTitle = "Version 1",
+	SubTitle = "Version 1001438",
 	TabWidth = 160,
 	Size = UDim2.fromOffset(530, 350),
 	Acrylic = false,
-	Theme = "Dark",
+	Theme = "Aqua",
 	MinimizeKey = Enum.KeyCode.RightControl
 })
 local L_5_ = {
+        info = L_4_:AddTab({
+		Title = "info",
+		Icon = "rbxassetid://15943857180"
+	}),
 	Main = L_4_:AddTab({
 		Title = "Main",
-		Icon = "home"
+		Icon = "rbxassetid://15943857180"
 	}),
 	Setting = L_4_:AddTab({
 		Title = "Setting",
-		Icon = "settings"
+		Icon = "rbxassetid://15943857180"
 	}),
 	Stats = L_4_:AddTab({
 		Title = "Stats",
-		Icon = "plus-circle"
+		Icon = "rbxassetid://15943857180"
 	}),
 	Player = L_4_:AddTab({
 		Title = "Player",
-		Icon = "baby"
+		Icon = "rbxassetid://15943857180"
 	}),
 	Teleport = L_4_:AddTab({
 		Title = "Island",
-		Icon = "palmtree"
+		Icon = "rbxassetid://15943857180"
 	}),
 	Fruit = L_4_:AddTab({
 		Title = "Fruit",
-		Icon = "cherry"
+		Icon = "rbxassetid://15943857180"
 	}),
 	Raid = L_4_:AddTab({
 		Title = "Raid",
-		Icon = "swords"
+		Icon = "rbxassetid://15943857180"
 	}),
 	Race = L_4_:AddTab({
 		Title = "Race V4",
-		Icon = "chevrons-right"
+		Icon = "rbxassetid://15943857180"
 	}),
 	Shop = L_4_:AddTab({
 		Title = "Shop",
-		Icon = "shopping-cart"
+		Icon = "rbxassetid://15943857180"
 	}),
 	Misc = L_4_:AddTab({
 		Title = "Misc",
-		Icon = "list-plus"
+		Icon = "rbxassetid://15943857180"
 	}),
 	Hop = L_4_:AddTab({
 		Title = "Hop",
-		Icon = "wifi"
+		Icon = "rbxassetid://15943857180"
 	}),
 }
 local L_6_ = L_1_.Options
@@ -7159,3 +7163,5 @@ if Third_Sea then
 		end
 	end)
 end
+--------------------------------------------------------------------------------------------------------------------------------------------
+--info
