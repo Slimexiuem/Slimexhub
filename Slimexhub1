@@ -19,51 +19,51 @@ local L_4_ = L_1_:CreateWindow({
 local L_5_ = {
         Info = L_4_:AddTab({
 		Title = "Info",
-		Icon = "home"
+		Icon = ""
 	}),
 	Main = L_4_:AddTab({
 		Title = "Main",
-		Icon = "home"
+		Icon = ""
 	}),
 	Setting = L_4_:AddTab({
 		Title = "Setting",
-		Icon = "settings"
+		Icon = ""
 	}),
 	Stats = L_4_:AddTab({
 		Title = "Stats",
-		Icon = "plus-circle"
-	}),
-	Player = L_4_:AddTab({
-		Title = "Player",
-		Icon = "baby"
+		Icon = ""
 	}),
 	Teleport = L_4_:AddTab({
 		Title = "Island",
-		Icon = "palmtree"
-	}),
-	Fruit = L_4_:AddTab({
-		Title = "Fruit",
-		Icon = "cherry"
+		Icon = ""
 	}),
 	Raid = L_4_:AddTab({
 		Title = "Raid",
-		Icon = "swords"
+		Icon = ""
 	}),
 	Race = L_4_:AddTab({
 		Title = "Race V4",
-		Icon = "chevrons-right"
+		Icon = ""
+	}),
+        Fruit = L_4_:AddTab({
+		Title = "Fruit",
+		Icon = ""
 	}),
 	Shop = L_4_:AddTab({
 		Title = "Shop",
-		Icon = "shopping-cart"
+		Icon = ""
 	}),
+	Player = L_4_:AddTab({
+		Title = "Player",
+		Icon = ""
+        }),
 	Misc = L_4_:AddTab({
 		Title = "Misc",
-		Icon = "list-plus"
+		Icon = ""
 	}),
 	Hop = L_4_:AddTab({
 		Title = "Hop",
-		Icon = "wifi"
+		Icon = ""
 	}),
 }
 local L_6_ = L_1_.Options
