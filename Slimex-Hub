@@ -99,7 +99,8 @@ do
 
 -------------------
 NoFi
-require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Hãy Tham Gia Discord Của SlimeX_Hub<Color=/>"):Display()
+require(game.ReplicatedStorage.Notification).new("<Color=Aqua>Use Script SlimeX_Hub <Color=/>"):Display()
+require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Please Join Discord SlimeX_Hub<Color=/>"):Display()
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 --Anti AFK
