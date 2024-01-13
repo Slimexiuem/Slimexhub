@@ -1,3 +1,7 @@
+--discord.gg/boronide, code generated using luamin.js™
+
+
+
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local L_1_ = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local L_2_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
@@ -5,7 +9,7 @@ local L_3_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-sc
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local L_4_ = L_1_:CreateWindow({
 	Title = "Slimex Hub",
-	SubTitle = "Version 1.00134",
+	SubTitle = "Version 1.00134--https://discord.gg/MeTe6KvKF5",
 	TabWidth = 160,
 	Size = UDim2.fromOffset(530, 350),
 	Acrylic = false,
@@ -13,10 +17,6 @@ local L_4_ = L_1_:CreateWindow({
 	MinimizeKey = Enum.KeyCode.End
 })
 local L_5_ = {
-	Info = L_4_:AddTab({
-		Title = "Info",
-		Icon = "rbxassetid://15943857180"
-	}),
 	Main = L_4_:AddTab({
 		Title = "Main",
 		Icon = "home"
@@ -2641,7 +2641,7 @@ do
 	L_92_.MouseButton1Click:Connect(function()
 		game:GetService("VirtualInputManager"):SendKeyEvent(true, Enum.KeyCode.End, false, game)
 	end)
-	L_93_.CornerRadius = UDim.new(0, 15)
+	L_93_.CornerRadius = UDim.new(0, 10)
 	L_93_.Parent = L_92_
 --------------------------------------------------------------------------------------------------------------------------------------------
 --Remove Effect
@@ -7123,7 +7123,7 @@ if Third_Sea then
 				elseif game:GetService("Lighting").Sky.MoonTextureId == "http://www.roblox.com/asset/?id=9709149680" then
 					Hop()
 					L_1_:Notify({
-						Title = "Slimex Hub",
+						Title = "Rimuru Hub",
 						Content = "Hop...",
 						SubContent = "", -- Optional
 						Duration = 5 -- Set to nil to make the notification not disappear
@@ -7156,10 +7156,18 @@ if Third_Sea then
 		end
 	end)
 end
-
-------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 --info
-L_5_.Info:AddButton(
+L5.Info:AddButton(
+        {
+            Title = "Than for use SlimeX_Hub",
+                        Title = "SlimeX_Hub",
+                    }
+                )
+            end
+        }
+    )
+L5.Info:AddButton(
         {
             Title = "Copy Discord SlimeX_Hub",
             Description = "https://discord.gg/hWrKvbMrVF",
