@@ -19,7 +19,7 @@ local L_4_ = L_1_:CreateWindow({
 local L_5_ = {
         Main = L_4_:AddTab({
 		Title = "info",
-		Icon = "rbxassetid://15943857180"
+		Icon = "home"
 	}),
 	Main = L_4_:AddTab({
 		Title = "Main",
@@ -7163,22 +7163,3 @@ if Third_Sea then
 		end
 	end)
 end
---------------------------------------------------------------------------------------------------------------------------------------------
---info
-L_5_.Info:AddButton(
-        {
-            Title = "Copy Discord SlimeX_Hub",
-            Description = "https://discord.gg/hWrKvbMrVF",
-            Callback = function()
-                setclipboard("https://discord.gg/hWrKvbMrVF")
-                Fluent:Notify(
-                    {
-                        Title = "SlimeX_Hub",
-                        Content = "Copied!",
-                        SubContent = "", -- Optional
-                        Duration = 5 -- Set to nil to make the notification not disappear
-                    }
-                )
-            end
-        }
-    )
