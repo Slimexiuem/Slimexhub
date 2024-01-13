@@ -7164,6 +7164,15 @@ end
 --info
 L_5_.Info:AddButton(
         {
+            Title = "Thank for use SlimeX_Hub",
+            Description = "dev by Slimex  sp by TThe",
+                    }
+                )
+            end
+        }
+    )
+L_5_.Info:AddButton(
+        {
             Title = "Copy Discord SlimeX_Hub",
             Description = "https://discord.gg/hWrKvbMrVF",
             Callback = function()
