@@ -9,7 +9,7 @@ local L_3_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-sc
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local L_4_ = L_1_:CreateWindow({
 	Title = "Slimex Hub",
-	SubTitle = "Version 1.00134--https://discord.gg/MeTe6KvKF5",
+	SubTitle = "Version 1.00134",
 	TabWidth = 160,
 	Size = UDim2.fromOffset(530, 350),
 	Acrylic = false,
@@ -17,6 +17,10 @@ local L_4_ = L_1_:CreateWindow({
 	MinimizeKey = Enum.KeyCode.End
 })
 local L_5_ = {
+        Main = L_4_:AddTab({
+		Title = "info",
+		Icon = "home"
+        }),
 	Main = L_4_:AddTab({
 		Title = "Main",
 		Icon = "home"
