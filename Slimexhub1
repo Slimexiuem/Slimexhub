@@ -13,12 +13,12 @@ local L_4_ = L_1_:CreateWindow({
 	TabWidth = 160,
 	Size = UDim2.fromOffset(530, 350),
 	Acrylic = false,
-	Theme = "Dark",
+	Theme = "Aqua",
 	MinimizeKey = Enum.KeyCode.RightControl
 })
 local L_5_ = {
-        Main = L_4_:AddTab({
-		Title = "info",
+        Info = L_4_:AddTab({
+		Title = "Info",
 		Icon = "home"
 	}),
 	Main = L_4_:AddTab({
