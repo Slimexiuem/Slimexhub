@@ -7166,7 +7166,7 @@ L_5_.Info:AddButton(
         {
             Title = "Thank for use SlimeX_Hub",
             Description = "https://discord.gg/hWrKvbMrVF",
-                Callback = function()
+            Callback = function()
                 setclipboard("https://discord.gg/hWrKvbMrVF")
                 Fluent:Notify(
                     {
