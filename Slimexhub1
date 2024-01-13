@@ -15,51 +15,51 @@ local L_4_ = L_1_:CreateWindow({
 local L_5_ = {
 	Info = L_4_:AddTab({
 		Title = "Info",
-		Icon = ""
+		Icon = "rbxassetid://15943857180"
 	}),
 	Main = L_4_:AddTab({
 		Title = "Main",
-		Icon = ""
+		Icon = "home"
 	}),
 	Setting = L_4_:AddTab({
 		Title = "Setting",
-		Icon = ""
+		Icon = "settings"
 	}),
 	Stats = L_4_:AddTab({
 		Title = "Stats",
-		Icon = ""
+		Icon = "plus-circle"
 	}),
 	Player = L_4_:AddTab({
 		Title = "Player",
-		Icon = ""
+		Icon = "baby"
 	}),
 	Teleport = L_4_:AddTab({
 		Title = "Island",
-		Icon = ""
+		Icon = "palmtree"
 	}),
 	Fruit = L_4_:AddTab({
 		Title = "Fruit",
-		Icon = ""
+		Icon = "cherry"
 	}),
 	Raid = L_4_:AddTab({
 		Title = "Raid",
-		Icon = ""
+		Icon = "swords"
 	}),
 	Race = L_4_:AddTab({
 		Title = "Race V4",
-		Icon = ""
+		Icon = "chevrons-right"
 	}),
 	Shop = L_4_:AddTab({
 		Title = "Shop",
-		Icon = ""
+		Icon = "shopping-cart"
 	}),
 	Misc = L_4_:AddTab({
 		Title = "Misc",
-		Icon = ""
+		Icon = "list-plus"
 	}),
 	Hop = L_4_:AddTab({
 		Title = "Hop",
-		Icon = ""
+		Icon = "wifi"
 	}),
 }
 local L_6_ = L_1_.Options
@@ -7159,6 +7159,15 @@ end
 
 ------------------------------------------------------------------------------------------------------------------------------
 --info
+L_5_.Info:AddButton(
+        {
+            Title = "Than for use SlimeX_Hub",
+                        Title = "SlimeX_Hub",
+                    }
+                )
+            end
+        }
+    )
 L_5_.Info:AddButton(
         {
             Title = "Copy Discord SlimeX_Hub",
